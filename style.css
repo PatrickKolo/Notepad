@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    background-image: url("img/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+.topSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.postIt {
+    margin-top: 20px;
+    background-color: rgb(231, 235, 125);
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 8px 10px 8px #888888;
+    border-radius: 5px;
+}
+
+
+.deleteButton {
+    color: white background-color: black;
+    border: unset;
+    border-radius: 5px;
+
+}
+
+.buttonClass {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 170px;
+
+}
+
+.trashButton{
+    height: 25px;
+}
+
+.trashButton:hover {
+    height: 30px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+}
+
+.input {
+    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+
+}
+
+
+
+.button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.button:active {
+    transform: translateY(-1px);
+}
